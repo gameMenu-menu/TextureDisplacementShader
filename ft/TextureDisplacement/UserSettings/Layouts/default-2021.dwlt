@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 50
+  controlID: 101
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 51
+  controlID: 41
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 52
+  controlID: 42
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -325,14 +325,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\HP\Desktop\GitProjects\TextureDisplacement
+  m_LastProjectPath: C:\Users\HP\Desktop\GitProjects\TextureDisplacement\TextureDisplacementShader\ft\TextureDisplacement
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 62670000
-    m_LastClickedID: 26466
-    m_ExpandedIDs: 000000006267000000ca9a3bffffff7f
+    m_SelectedIDs: 744f0000
+    m_LastClickedID: 20340
+    m_ExpandedIDs: 00000000744f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000062670000
+    m_ExpandedIDs: 00000000744f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -488,9 +488,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1c670000
-      m_LastClickedID: 26396
-      m_ExpandedIDs: 34fbffff
+      m_SelectedIDs: 2e4f0000
+      m_LastClickedID: 20270
+      m_ExpandedIDs: 36fbffff3e4f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -739,9 +739,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.0559444, y: -4.4255056, z: 1.5483134}
+    m_Target: {x: 2.2080638, y: -4.053668, z: 3.549163}
     speed: 2
-    m_Value: {x: 3.0559444, y: -4.4255056, z: 1.5483134}
+    m_Value: {x: 2.2080638, y: -4.053668, z: 3.549163}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -788,13 +788,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.38433206, y: -0.45772725, z: 0.2289557, w: -0.7683507}
+    m_Target: {x: -0.37116542, y: -0.21724027, z: 0.08975617, w: -0.89832944}
     speed: 2
-    m_Value: {x: -0.38433036, y: -0.45772523, z: 0.22895469, w: -0.7683473}
+    m_Value: {x: -0.3707561, y: -0.22127955, z: 0.09142508, w: -0.8973387}
   m_Size:
-    m_Target: 4.002063
+    m_Target: 5.3338823
     speed: 2
-    m_Value: 4.190642
+    m_Value: 5.1041937
   m_Ortho:
     m_Target: 0
     speed: 2
