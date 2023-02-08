@@ -7,32 +7,30 @@ public class Test : MonoBehaviour
     public MeshRenderer Renderer;
     public MeshFilter Filter;
     
-    
-    public RenderTexture SaveTexture;
-    void Start()
-    {
-        //SetRenderTexture(Renderer.material.GetTexture("_SideTex"));
-    }
+    public LayerMask surfaceMask;
 
     void Update()
     {
+        if(Input.GetMouseButton(0))
+        {
+            MoveSphere();
+        }
+
         Renderer.material.SetVector("_ComparePos", transform.position);
 
-        Texture texture = Renderer.material.GetTexture("_SideTex");
 
-        Graphics.Blit (texture, SaveTexture, Renderer.material);
     }
 
-    void LateUpdate()
+    void MoveSphere()
     {
-        //Filter.mesh.MarkDynamic();
-        //Filter.mesh.RecalculateNormals();
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
+        RaycastHit hit;
 
+        if(Physics.Raycast(ray, out hit, 10000f, surfaceMask))
+        {
+            transform.position = hit.point;
+        }
     }
 
-    void SetRenderTexture(Texture tex)
-    {
-        SaveTexture = new RenderTexture(tex.width, tex.height, 1);
-    }
 }
